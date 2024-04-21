@@ -34,12 +34,12 @@ function App() {
 				<Alert alert={alert} />
 				<Routes>
 					<Route
-						path="/"
+						path="/textutils"
 						element={<TextArea mode={mode} showAlert={showAlert} />}
 					/>
-					<Route path="/about" element={<About mode={mode} />} />
+					<Route path="/textutils/about" element={<About mode={mode} />} />
 					<Route
-						path="/contacts"
+						path="/textutils/contacts"
 						element={<Contacts mode={mode} />}
 					/>
 				</Routes>
