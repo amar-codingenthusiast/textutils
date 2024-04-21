@@ -5,7 +5,7 @@ import { TextArea } from "./MyComponents/TextArea";
 import About from "./MyComponents/About";
 import Contacts from "./MyComponents/Contacts";
 import Footer from "./MyComponents/Footer";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
 	const [mode, setMode] = useState("light");
