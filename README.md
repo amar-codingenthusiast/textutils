@@ -31,8 +31,12 @@ You can access the live version of TextUtils here: [TextUtils](https://amar-codi
    
 3. **Dark Mode**:
    - Toggle the Dark Mode by clicking the "Dark Mode" checkbox on the navbar.
-   
-4. **Navigation**:
+
+4. **Alerts**:
+   - Alerts are displayed to provide feedback to users after performing an action, such as changing the case of the text or copying text to the clipboard or toggling mode between dark and light.
+   - These alerts disappear automatically after 2 seconds.
+
+5. **Navigation**:
    - Navigate between different sections of the application using the navigation bar:
    - Home: Main page with the text area.
    - About: Information about TextUtils.
