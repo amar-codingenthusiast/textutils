@@ -28,18 +28,18 @@ function App() {
 		setTimeout(() => setAlert(null), 2000);
 	};
 	return (
-		<Router>
+		<Router basename="/textutils">
 			<Navbar mode={mode} changeMode={changeMode} />
 			<div style={{ minHeight: "80.7vh" }}>
 				<Alert alert={alert} />
 				<Routes>
 					<Route
-						path="/textutils"
+						path="/"
 						element={<TextArea mode={mode} showAlert={showAlert} />}
 					/>
-					<Route path="/textutils/about" element={<About mode={mode} />} />
+					<Route path="/about" element={<About mode={mode} />} />
 					<Route
-						path="/textutils/contacts"
+						path="/contacts"
 						element={<Contacts mode={mode} />}
 					/>
 				</Routes>
