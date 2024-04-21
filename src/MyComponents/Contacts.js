@@ -6,7 +6,8 @@ export default function Contacts(props) {
 			className="container my-3"
 			style={{ color: props.mode === "light" ? "black" : "white" }}
 		>
-			{" "}
+			<h2>Contacts</h2>
+			<p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
 			totam officia porro, quis eos alias accusamus eveniet dolor
 			quibusdam? Quaerat ipsa minus officiis deleniti alias quas eius
@@ -77,6 +78,7 @@ export default function Contacts(props) {
 			commodi eius repellendus magnam eligendi. In ad quo, corporis
 			excepturi laborum, error dicta atque dolor laboriosam consequuntur
 			asperiores maiores aspernatur quaerat perferendis, nobis expedita.
+			</p>
 		</div>
 	);
 }
