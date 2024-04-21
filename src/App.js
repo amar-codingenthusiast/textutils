@@ -13,7 +13,7 @@ function App() {
 		if (mode === "light") {
 			setMode("dark");
 			document.body.style.backgroundColor = "#343634";
-			document.body.style.color = "while";
+			document.body.style.color = "white";
 			showAlert("Dark mode enabled.");
 		} else {
 			setMode("light");
