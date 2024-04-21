@@ -24,7 +24,7 @@ export const TextArea = (props) => {
 				></textarea>
 			</div>
 			<button
-				className="btn btn-primary me-2"
+				className="btn btn-primary me-2 my-1"
 				onClick={() => {
 					setText(text.toUpperCase());
 					props.showAlert("Text changed into UPPERCASE.");
@@ -34,7 +34,7 @@ export const TextArea = (props) => {
 				UPPER CASE
 			</button>
 			<button
-				className="btn btn-primary me-2"
+				className="btn btn-primary me-2 my-1"
 				onClick={() => {
 					setText(text.toLowerCase());
 					props.showAlert("Text changed into lowercase.");
@@ -44,7 +44,7 @@ export const TextArea = (props) => {
 				lowercase
 			</button>
 			<button
-				className="btn btn-primary me-2"
+				className="btn btn-primary me-2 my-1"
 				onClick={() => {
 					setText(
 						text.replace(/\b\w/g, (char) => char.toUpperCase())
@@ -56,7 +56,7 @@ export const TextArea = (props) => {
 				Capitalized Case
 			</button>
 			<button
-				className="btn btn-primary me-2"
+				className="btn btn-primary me-2 my-1"
 				onClick={() => {
 					navigator.clipboard.writeText(text);
 					props.showAlert("Text copied to clipboard.");
@@ -66,7 +66,7 @@ export const TextArea = (props) => {
 				Copy to clipboard
 			</button>
 			<button
-				className="btn btn-primary me-2"
+				className="btn btn-primary me-2 my-1"
 				onClick={() => {
 					setText("");
 					props.showAlert("Text cleared.");
