@@ -2,6 +2,14 @@
 
 TextUtils is a simple web application built with React that provides various text manipulation features like changing text case, analyzing text, and more.
 
+## Technologies Used
+ - HTML
+ - CSS
+ - JavaScript
+ - JSX
+ - Bootstrap
+ - React.js
+
 ## Deployed Link
 
 You can access the live version of TextUtils here: [TextUtils](https://amar-codingenthusiast.github.io/textutils/)
