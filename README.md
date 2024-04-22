@@ -56,12 +56,15 @@ You can access the live version of TextUtils here: [TextUtils](https://amar-codi
    ```sh
    git clone https://github.com/amar-codingenthusiast/textutils.git
 2. Change directory:
+   ```sh
    cd textutils
-3. Install dependencies:
+4. Install dependencies:
+   ```sh
    npm install
-4. Run the app:
+6. Run the app:
+   ```sh
    npm start
-5. Open your browser and visit http://localhost:3000/textutils to view the app.
+8. Open your browser and visit http://localhost:3000/textutils to view the app.
 
 ## Important Pages
 - **App.js:** Main entry point of the application.
@@ -69,6 +72,19 @@ You can access the live version of TextUtils here: [TextUtils](https://amar-codi
 - **About.js:** About us section.
 - **Contacts.js:** Contact information section.
 - **Footer.js:** Footer component.
+
+## Contributing
+Contributions are welcome! Here's how you can contribute:
+
+Fork the repository
+
+Create your feature branch (`git checkout -b feature/YourFeature`)
+
+Commit your changes (`git commit -am 'Add some feature'`)
+
+Push to the branch (`git push origin feature/YourFeature`)
+
+Create a new Pull Request
 
 ## License
 This project is licensed under the terms of the MIT license. You can find the [LICENSE](LICENSE) file in the root directory of the project.
