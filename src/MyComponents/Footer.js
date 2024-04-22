@@ -2,8 +2,6 @@ import React from "react";
 
 export default function Footer(props) {
     let footerStyle = {
-        // position: "fixed",
-        // bottom: 0,
         margin: "35px 0 0 0",
         width: "100%",
         padding: "15px 0 1px 0",
